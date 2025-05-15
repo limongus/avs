@@ -53,55 +53,68 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(120,150)" to="(120,190)"/>
-    <wire from="(200,210)" to="(200,220)"/>
-    <wire from="(220,150)" to="(220,190)"/>
-    <wire from="(100,90)" to="(120,90)"/>
-    <wire from="(200,150)" to="(220,150)"/>
-    <wire from="(190,130)" to="(200,130)"/>
-    <wire from="(190,170)" to="(200,170)"/>
-    <wire from="(190,210)" to="(200,210)"/>
-    <wire from="(60,70)" to="(60,90)"/>
-    <wire from="(120,90)" to="(120,110)"/>
-    <wire from="(220,190)" to="(230,190)"/>
-    <wire from="(60,90)" to="(70,90)"/>
-    <wire from="(120,150)" to="(130,150)"/>
-    <wire from="(120,190)" to="(130,190)"/>
-    <wire from="(120,110)" to="(130,110)"/>
-    <wire from="(60,190)" to="(70,190)"/>
-    <wire from="(200,130)" to="(200,150)"/>
-    <wire from="(200,150)" to="(200,170)"/>
-    <wire from="(60,70)" to="(230,70)"/>
-    <wire from="(230,70)" to="(230,90)"/>
-    <wire from="(70,190)" to="(70,220)"/>
-    <wire from="(70,220)" to="(200,220)"/>
+    <wire from="(110,100)" to="(170,100)"/>
+    <wire from="(180,60)" to="(180,70)"/>
+    <wire from="(170,120)" to="(170,130)"/>
+    <wire from="(100,170)" to="(100,180)"/>
+    <wire from="(100,240)" to="(100,250)"/>
+    <wire from="(60,140)" to="(110,140)"/>
+    <wire from="(60,190)" to="(110,190)"/>
+    <wire from="(60,260)" to="(110,260)"/>
+    <wire from="(110,80)" to="(110,100)"/>
+    <wire from="(100,90)" to="(100,110)"/>
+    <wire from="(180,70)" to="(180,90)"/>
+    <wire from="(170,100)" to="(170,120)"/>
+    <wire from="(170,200)" to="(170,230)"/>
+    <wire from="(170,270)" to="(170,300)"/>
+    <wire from="(80,70)" to="(80,230)"/>
+    <wire from="(80,70)" to="(110,70)"/>
+    <wire from="(80,230)" to="(170,230)"/>
+    <wire from="(100,240)" to="(190,240)"/>
+    <wire from="(190,70)" to="(190,110)"/>
+    <wire from="(90,120)" to="(110,120)"/>
+    <wire from="(170,120)" to="(190,120)"/>
+    <wire from="(100,90)" to="(180,90)"/>
+    <wire from="(100,170)" to="(180,170)"/>
+    <wire from="(90,300)" to="(170,300)"/>
+    <wire from="(170,60)" to="(180,60)"/>
+    <wire from="(180,110)" to="(190,110)"/>
+    <wire from="(180,70)" to="(190,70)"/>
+    <wire from="(190,70)" to="(200,70)"/>
+    <wire from="(190,120)" to="(200,120)"/>
+    <wire from="(90,120)" to="(90,300)"/>
+    <wire from="(100,110)" to="(110,110)"/>
+    <wire from="(100,180)" to="(110,180)"/>
+    <wire from="(100,250)" to="(110,250)"/>
+    <wire from="(190,120)" to="(190,240)"/>
+    <wire from="(180,110)" to="(180,170)"/>
+    <comp lib="0" loc="(60,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+    </comp>
     <comp lib="0" loc="(60,190)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="S"/>
+      <a name="label" val="J"/>
     </comp>
-    <comp lib="0" loc="(60,90)" name="Pin">
+    <comp lib="1" loc="(170,130)" name="NAND Gate"/>
+    <comp lib="0" loc="(60,260)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="R"/>
+      <a name="label" val="K"/>
     </comp>
-    <comp lib="1" loc="(130,190)" name="NAND Gate">
-      <a name="facing" val="west"/>
-      <a name="label" val="2"/>
-    </comp>
-    <comp lib="0" loc="(230,190)" name="Pin">
+    <comp lib="0" loc="(200,120)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="!Q"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(230,90)" name="Pin">
+    <comp lib="1" loc="(170,60)" name="NAND Gate"/>
+    <comp lib="1" loc="(170,200)" name="NAND Gate"/>
+    <comp lib="1" loc="(170,270)" name="NAND Gate"/>
+    <comp lib="0" loc="(200,70)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="label" val="Q"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(190,130)" name="NAND Gate">
-      <a name="label" val="1"/>
-    </comp>
-    <comp lib="1" loc="(100,90)" name="NOT Gate"/>
   </circuit>
 </project>
